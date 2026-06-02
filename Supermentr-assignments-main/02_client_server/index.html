@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-Server Architecture</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .box {
+            border: 2px solid #333;
+            padding: 15px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Client-Server Architecture</h1>
+
+    <div class="box">
+        <h2>What is Client?</h2>
+        <p>
+            A client is a device or application that requests services or resources from a server.
+            Example: Web browser (Chrome, Edge)
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>What is Server?</h2>
+        <p>
+            A server is a system that provides resources, data, or services to clients over a network.
+        </p>
+    </div>
+
+    <h2>Architecture Diagram</h2>
+
+    <pre>
+        [ Client (Browser) ]
+                |
+                | Request (HTTP)
+                ↓
+        [ Internet / Network ]
+                |
+                ↓
+        [ Server ]
+                |
+                | Response (HTML, CSS, JS)
+                ↓
+        [ Client Displays Web Page ]
+    </pre>
+
+    <h2>What Happens When You Open a Website?</h2>
+
+    <ol>
+        <li>User enters URL in browser</li>
+        <li>DNS converts domain name to IP address</li>
+        <li>Browser sends HTTP request to server</li>
+        <li>Server processes request</li>
+        <li>Server sends back response (HTML, CSS, JS)</li>
+        <li>Browser renders the webpage</li>
+    </ol>
+
+</body>
+</html>

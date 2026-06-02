@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Signup Form</h2>
+
+        <form id="myForm">
+
+            <input type="text" id="name" placeholder="Enter your name">
+            <small class="error" id="nameError"></small>
+
+            <input type="email" id="email" placeholder="Enter your email">
+            <small class="error" id="emailError"></small>
+
+            <input type="password" id="password" placeholder="Enter password">
+            <small class="error" id="passwordError"></small>
+
+            <button type="submit">Submit</button>
+
+            <p id="successMessage"></p>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
